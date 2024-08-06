@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>if condition</title>
+    </head>
+        <body>
+            <h1>If Condition</h1>
+            {% if role == 'admin' %}
+                <h2>Welcome {{name}} as {{role}}</h2>
+            {% endif %}
+            
+            <h1>If else Condition</h1>
+            {% if role == 'admin' %}
+                <h2>Welcome {{name}} as {{role}}</h2>
+            {% elif role == 'manager' %}
+                <h1>Welcome {{role}}, {{name}}</h1>
+            {% else %}
+                <h1>This is an Else Block</h1>
+            {% endif %}
+
+        </body>
+    
+</html>

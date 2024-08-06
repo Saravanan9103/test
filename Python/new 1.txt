@@ -1,0 +1,4 @@
+class Atm
+	def__init__(self,b)
+	self.balance=b
+	def money(self)
